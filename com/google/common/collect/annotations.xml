@@ -1,0 +1,5 @@
+<root>
+  <item name='com.google.common.collect.Range com.google.common.collect.Range&lt;C&gt; greaterThan(C)'>
+    <annotation name='org.jetbrains.annotations.NotNull'/>
+  </item>
+</root>

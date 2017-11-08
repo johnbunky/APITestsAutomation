@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "date": {
+      "id": "/properties/date",
+      "type": "string"
+    },
+    "result": {
+      "id": "/properties/result",
+      "properties": {
+        "category_id": {
+          "id": "/properties/result/properties/category_id",
+          "type": "integer"
+        },
+        "category_name": {
+          "id": "/properties/result/properties/category_name",
+          "type": "string"
+        },
+        "country_id": {
+          "id": "/properties/result/properties/country_id",
+          "type": "integer"
+        },
+        "created": {
+          "id": "/properties/result/properties/created",
+          "type": "string"
+        },
+        "id": {
+          "id": "/properties/result/properties/id",
+          "type": "string"
+        },
+        "images": {
+          "id": "/properties/result/properties/images",
+          "items": {
+            "id": "/properties/result/properties/images/items",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "index": {
+          "id": "/properties/result/properties/index",
+          "type": "integer"
+        },
+        "master_about": {
+          "id": "/properties/result/properties/master_about",
+          "type": "string"
+        },
+        "master_avatar": {
+          "id": "/properties/result/properties/master_avatar",
+          "type": "string"
+        },
+        "master_badges": {
+          "id": "/properties/result/properties/master_badges",
+          "type": "string"
+        },
+        "master_id": {
+          "id": "/properties/result/properties/master_id",
+          "type": "integer"
+        },
+        "master_phone": {
+          "id": "/properties/result/properties/master_phone",
+          "type": "string"
+        },
+        "master_presentation": {
+          "id": "/properties/result/properties/master_presentation",
+          "type": "string"
+        },
+        "master_rating": {
+          "id": "/properties/result/properties/master_rating",
+          "type": "string"
+        },
+        "name": {
+          "id": "/properties/result/properties/name",
+          "type": "string"
+        },
+        "preview": {
+          "id": "/properties/result/properties/preview",
+          "type": "string"
+        },
+        "site_id": {
+          "id": "/properties/result/properties/site_id",
+          "type": "integer"
+        },
+        "text": {
+          "id": "/properties/result/properties/text",
+          "type": "string"
+        },
+        "updated": {
+          "id": "/properties/result/properties/updated",
+          "type": "string"
+        },
+        "url": {
+          "id": "/properties/result/properties/url",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "status": {
+      "id": "/properties/status",
+      "properties": {
+        "code": {
+          "id": "/properties/status/properties/code",
+          "type": "string"
+        },
+        "message": {
+          "id": "/properties/status/properties/message",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "type": "object"
+}

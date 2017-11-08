@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "properties": {
+    "date": {
+      "id": "/properties/date",
+      "type": "string"
+    },
+    "result": {
+      "id": "/properties/result",
+      "properties": {
+        "birthday": {
+          "id": "/properties/result/properties/birthday",
+          "type": "null"
+        },
+        "created": {
+          "id": "/properties/result/properties/created",
+          "type": "string"
+        },
+        "email": {
+          "id": "/properties/result/properties/email",
+          "type": "string"
+        },
+        "favorite": {
+          "id": "/properties/result/properties/favorite",
+          "items": {
+            "id": "/properties/result/properties/favorite/items",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "gender": {
+          "id": "/properties/result/properties/gender",
+          "type": "null"
+        },
+        "id": {
+          "id": "/properties/result/properties/id",
+          "type": "string"
+        },
+        "image": {
+          "id": "/properties/result/properties/image",
+          "type": "string"
+        },
+        "login": {
+          "id": "/properties/result/properties/login",
+          "type": "string"
+        },
+        "name": {
+          "id": "/properties/result/properties/name",
+          "type": "string"
+        },
+        "patronymic": {
+          "id": "/properties/result/properties/patronymic",
+          "type": "string"
+        },
+        "phone": {
+          "id": "/properties/result/properties/phone",
+          "type": "null"
+        },
+        "presentation": {
+          "id": "/properties/result/properties/presentation",
+          "type": "string"
+        },
+        "role": {
+          "id": "/properties/result/properties/role",
+          "type": "string"
+        },
+        "site_id": {
+          "id": "/properties/result/properties/site_id",
+          "type": "integer"
+        },
+        "status": {
+          "id": "/properties/result/properties/status",
+          "type": "string"
+        },
+        "surname": {
+          "id": "/properties/result/properties/surname",
+          "type": "string"
+        },
+        "updated": {
+          "id": "/properties/result/properties/updated",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "status": {
+      "id": "/properties/status",
+      "properties": {
+        "code": {
+          "id": "/properties/status/properties/code",
+          "type": "string"
+        },
+        "message": {
+          "id": "/properties/status/properties/message",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "type": "object"
+}
